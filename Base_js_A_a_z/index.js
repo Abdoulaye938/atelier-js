@@ -197,3 +197,8 @@
 // };
 // faireUneTache("les coures");
 // faireUneTache("je fais le menage");
+
+function calc(x, y) {
+  return x + y;
+}
+calc(4, 9);
