@@ -131,5 +131,7 @@ console.log(allProfiles);
 let guest = ["Will Alexander", "Sarah Kate", "Audrey Simon"];
 let howManyGuests = guest.length;
 
-// L'ajout et la suppression d'éléments
+// L'ajout et la suppression d'éléments (push, unshift, pop)
 guest.push("Tao Perkington");
+guests.unshift("Tao Perkington");
+guests.pop();
