@@ -92,3 +92,39 @@ if (firstUser.accountLevel === "normal") {
 } else {
   console.log("Unknown account type!");
 }
+
+//Utilisez la bonne boucle pour répéter les tâches (for, while)
+const numberOfPassengers = 10;
+for (let i = 0; i < numberOfPassengers; i++) {
+  console.log("Passager embarqué !");
+}
+/////////////////////////
+let tdsiUcad = 20;
+for (let i = 0; i < tdsiUcad; i++) {
+  console.log("les etudiants de la tdsi !");
+}
+/////////////////////////
+const number1OfPassengers = 10;
+for (let i = 0; i < number1OfPassengers; i++) {
+  console.log("Passager embarqué !");
+}
+
+console.log("Tous les passagers sont embarqués !");
+
+// Travaillez sur des tableaux :  for… of et for… in
+const passengers = [
+  "Will Alexander",
+  "Sarah Kate'",
+  "Audrey Simon",
+  "Tao Perkington",
+];
+
+for (let i in passengers) {
+  console.log("Embarquement du passager " + passengers[i]);
+}
+////////////////
+const passager = ["Abdoulaye DIALLO", "MoussaSARR", "Aliou SY", "Mame Cheikh "];
+
+for (let passager1 of passager) {
+  console.log("Embarquement du passager " + passager);
+}
