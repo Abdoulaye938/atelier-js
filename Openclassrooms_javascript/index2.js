@@ -128,3 +128,53 @@ const passager = ["Abdoulaye DIALLO", "MoussaSARR", "Aliou SY", "Mame Cheikh "];
 for (let passager1 of passager) {
   console.log("Embarquement du passager " + passager);
 }
+
+/////////////////
+const passenger0 = [
+  {
+    name: "Will Alexander",
+    ticketNumber: 209542,
+  },
+
+  {
+    name: "Sarah Kate",
+    ticketNumber: 169336,
+  },
+
+  {
+    name: "Audrey Simon",
+    ticketNumber: 779042,
+  },
+
+  {
+    name: "Tao Perkington",
+    ticketNumber: 703911,
+  },
+];
+
+for (let passenger of passenger0) {
+  console.log(
+    "Embarquement du passager " +
+      passenger.name +
+      " avec le ticket numéro " +
+      passenger.ticketNumber
+  );
+}
+
+// Utilisez la bouclewhile
+let seatsLeft = 10;
+let passengersStillToBoard = 8;
+let passengersBoarded = 0;
+
+while (seatsLeft > 0 && passengersStillToBoard > 0) {
+  passengersBoarded++;
+  passengersStillToBoard--;
+  seatsLeft--;
+}
+
+console.log(passengersBoarded);
+
+// Gérez des erreurs et des exceptions dans votre programme
+// Découvrez trois types d'erreur(Appréhendez les erreurs de syntaxe)
+// Découvrez les erreurs logiques
+// Gérez les erreurs d'exécution
