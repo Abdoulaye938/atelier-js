@@ -178,3 +178,99 @@ console.log(passengersBoarded);
 // Découvrez trois types d'erreur(Appréhendez les erreurs de syntaxe)
 // Découvrez les erreurs logiques
 // Gérez les erreurs d'exécution
+
+// questions
+let online = true;
+let message = "";
+
+if (online) {
+  message = "Utilisateur en ligne !";
+} else {
+  message = "Utilisateur hors ligne !";
+}
+
+/////////////////
+let passengersBoarded0 = 0;
+
+if (passengersBoarded0 <= 10) {
+  passengersBoarded0 += 10;
+} else {
+  passengersBoarded0 -= passengersBoarded0 - 10;
+}
+
+/////////////////////
+let passengersRemaining = true;
+let planeIsFull = false;
+
+let continueBoarding = false;
+
+if (planeIsFull || continueBoarding) {
+  continueBoarding = true;
+}
+
+///////////////////
+const user = {
+  name: "Will Alexander",
+  nationality: "Scottish",
+  accountLevel: "premium",
+};
+
+let welcomeMessage1 = "";
+
+switch (user.accountLevel) {
+  case "Will Alexander":
+    welcomeMessage1 = "Hi Will!";
+    break;
+  case "Scottish":
+    welcomeMessage1 = "Och aye the noo!";
+    break;
+  case "normal":
+    welcomeMessage1 = "Welcome back!";
+    break;
+  case "premium":
+    welcomeMessage1 = "Welcome power user!";
+    break;
+  default:
+    welcomeMessage1 = "Hello there!";
+}
+
+////////////////////////
+let vipStatus = "";
+
+let guest = {
+  name: "Sarah Kate",
+  age: 21,
+  ticket: true,
+  guestType: "artist",
+};
+
+switch (guest.guestType) {
+  case "artist":
+    vipStatus = "Normal";
+  case "star":
+    vipStatus = "Important";
+    break;
+  case "presidential":
+    vipStatus = "Mega-important";
+    break;
+  default:
+    vipStatus = "None";
+}
+
+//////////////////
+for (let i = 0; i < 5; i++) {
+  console.log("Oh hey!");
+}
+//////////////////
+const passengers3 = [
+  "Will Alexander",
+  "Sarah Kate",
+  "Audrey Simon",
+  "Tao Perkington",
+];
+
+let passengersBoarded2 = 10;
+
+for (let i in passengers3) {
+  passengersBoarded2++;
+}
