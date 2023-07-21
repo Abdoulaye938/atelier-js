@@ -72,9 +72,9 @@ let lastName = "Alexander";
 let wholeName = firstName + " " + lastName; // valeur: "Will Alexander"
 
 // la string interpolation :${myName}
-// const myName = `Alexander`;
-// const salutation = `Bienvenue sur mon site ${myName}!`;
-// console.log(salutation); //retournera “Bienvenue sur mon site Alexander!”
+const myName = `Alexander`;
+const salutation = `Bienvenue sur mon site ${myName}!`;
+console.log(salutation); //retournera “Bienvenue sur mon site Alexander!”
 
 //-----Définissez des objets et leurs attributs avec des classes----------------
 //Découvrez les objets
@@ -103,5 +103,33 @@ let myBook2 = {
   numberOfPages: 250,
   isAvailable: true,
 };
-let bookTitle2 = myBook2["title"]; // "L'Histoire de Tao"
-let bookPages2 = myBook2["numberOfPages"]; // 250
+let bookTitle2 = myBook2["title"];
+let bookPages2 = myBook2["numberOfPages"];
+
+// Regroupez vos données avec les tableaux et les objets
+let firstFrontRowGuest;
+let secondFrontRowGuest;
+firstFrontRowGuest = "Sarah Kate";
+secondFrontRowGuest = "Audrey Simon";
+
+// Utilisez un tableau pour enregistrer une liste ordonnée d'éléments
+// tableau vide
+let guests = [];
+
+// Utilisez des valeurs plutôt que des références
+let artistProfile = {
+  name: "Tao Perkington",
+  age: 27,
+  available: true,
+};
+let allProfiles = [artistProfile];
+artistProfile.available = false;
+console.log(allProfiles);
+
+// Travaillez sur les tableaux--------------------------
+// Le comptage d'éléments
+let guest = ["Will Alexander", "Sarah Kate", "Audrey Simon"];
+let howManyGuests = guest.length;
+
+// L'ajout et la suppression d'éléments
+guest.push("Tao Perkington");
