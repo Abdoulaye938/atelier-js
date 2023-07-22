@@ -51,3 +51,7 @@ console.log(fruits);
 let pos = fruits.indexOf("Banana");
 console.log(pos);
 console.log(fruits);
+
+// Supprimer un élément par son index
+let removedItem = fruits.splice(pos, 1);
+console.log(removedItem);
