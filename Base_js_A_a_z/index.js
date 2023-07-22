@@ -10,12 +10,12 @@ prenomNom = "Ablaye DIALLO";
 ///////////////////////////////
 
 // ce ci fonctionne
-var nomPrenom = "DIALLO Abdoulaye";
-var nomPrenom = "NDIAYE Mbaye ";
+// var nomPrenom = "DIALLO Abdoulaye";
+// var nomPrenom = "NDIAYE Mbaye ";
 
-// ceci ne fonctionne pas et renvoie une erreur
-let nomPreNom = "DIALLO Abdoulaye";
-let nomPreNom = "NDIAYE Mbaye ";
+// // ceci ne fonctionne pas et renvoie une erreur
+// let nomPreNom = "DIALLO Abdoulaye";
+// let nomPreNom = "NDIAYE Mbaye ";
 
 // console.log("hello");
 
