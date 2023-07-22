@@ -72,3 +72,25 @@ console.log(vegetables);
 // ["Cabbage", "Carrot"] (le tableau d'origine est changé)
 
 console.log(removedItems);
+
+// Copier un tableau
+let shallowCopy = fruits.slice(); // crée un nouveau tableau qui contient les éléments de fruits
+// ["Strawberry", "Mango"]
+
+// Accéder aux éléments d'un tableau
+let arr = ["le premier élément", "le deuxième élément", "le dernier élément"];
+console.log(arr[0]); // affiche "le premier élément"
+console.log(arr[1]); // affiche "le deuxième élément"
+console.log(arr[arr.length - 1]); // affiche "le dernier élément"
+
+//Relation entre length et les propriétés numériques
+let fruitsA = [];
+fruits.push("banane", "pomme", "pêche");
+
+console.log(fruits.length);
+
+///////////////////
+fruits[5] = "mangue";
+console.log(fruits[5]); // "mangue"
+console.log(Object.keys(fruits)); // ['0', '1', '2', '5']
+console.log(fruits.length); // 6
