@@ -54,42 +54,41 @@ console.log(nomEntier);
 
 // ----------------- Type de donnee-----------------------
 
-// let string = "je suis une chaine";
-// let number = 24;
-// let boolean = true;
-// let array = ["je", "suis", 24, false];
-// let objet = {
-//   prenom: "Abdoulaye",
-//   age: 34,
-//   ville: "Dakar",
-// };
-// console.log(typeof array);
-// console.log(typeof string);
-// console.log(typeof number);
-// console.log(typeof boolean);
-// console.log(typeof objet);
+let string = "je suis une chaine";
+let number = 24;
+let boolean = true;
+let array = ["je", "suis", 24, false];
+let objet = {
+  prenom: "Abdoulaye",
+  age: 34,
+  ville: "Dakar",
+};
+console.log(typeof array);
+console.log(typeof string);
+console.log(typeof number);
+console.log(typeof boolean);
+console.log(typeof objet);
 
 // ------------ les operateurs  -------
 
-// console.log(10 + 5);
-// console.log(10 - 5);
-// console.log(10 * 5);
-// console.log(10 / 5);
-// console.log(10 ** 5);
+console.log(10 + 5);
+console.log(10 - 5);
+console.log(10 * 5);
+console.log(10 / 5);
+console.log(10 ** 5);
 
 // ------------ les operateurs d'affectation  -------
+let total0 = 0;
+total0 = total0 + 1;
+console.log(total);
 
-// let total = 0;
-// total = total + 1;
-// console.log(total);
+let total1 = 0;
+total1++;
+console.log(total1);
 
-// let total = 0;
-// total++;
-// console.log(total);
-
-// let total = 0;
-// total--;
-// console.log(total);
+let total2 = 0;
+total2--;
+console.log(total2);
 
 // let total = 10;
 // total *= 5;
@@ -107,22 +106,22 @@ console.log(nomEntier);
 // total **= 5;
 // console.log(total);
 
-// let total = 10;
-// let x = 4;
-// total = ++x;
-// console.log(total);
+let total4 = 10;
+let x1 = 4;
+total4 = ++x1;
+console.log(total4);
 
-// let total = 10;
-// let x = 9;
-// x++;
-// total = x;
-// console.log(total);
+let total5 = 10;
+let x2 = 9;
+x2++;
+total5 = x2;
+console.log(total5);
 
-// let total = 10;
-// let x = 9;
-// ++x;
-// total = x;
-// console.log(total);
+let total6 = 10;
+let x3 = 9;
+++x3;
+total6 = x3;
+console.log(total6);
 
 // -------------- structure de controle ---------------
 
