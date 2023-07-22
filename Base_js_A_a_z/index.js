@@ -5,6 +5,8 @@ let prenomNom = "Abdoualaye DIALLO";
 let monPrenom;
 monPrenom = "Abdoulaye";
 
+prenomNom = "Ablaye DIALLO";
+
 // console.log("hello");
 
 // ------- variable ----------
