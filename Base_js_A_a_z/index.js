@@ -1,3 +1,10 @@
+// On declare et on initialise la variable en meme temps
+let prenomNom = "Abdoualaye DIALLO";
+
+// on declare la variable puis on l'initialise ensuite\
+let monPrenom;
+monPrenom = "Abdoulaye";
+
 // console.log("hello");
 
 // ------- variable ----------
@@ -24,14 +31,14 @@
 
 // --------------- Concatenation -------------------
 
-// let chiffre = 24;
-// let nouvelleChaine = "le chiffre attendu est:" + chiffre;
-// console.log(nouvelleChaine);
-
-// let nom = "DIALLO";
-// let prenom = "Abdoulaye";
-// let nomEntier = "le nom en entier est: " + prenom + " " + nom;
-// console.log(nomEntier);
+let chiffre = 24;
+let nouvelleChaine = "le chiffre attendu est:" + chiffre;
+console.log(nouvelleChaine);
+///////////////////////
+let nom = "DIALLO";
+let prenom = "Abdoulaye";
+let nomEntier = "le nom en entier est: " + prenom + " " + nom;
+console.log(nomEntier);
 
 // ----------------- Type de donnee-----------------------
 
@@ -198,7 +205,7 @@
 // faireUneTache("les coures");
 // faireUneTache("je fais le menage");
 
-function calc(x, y) {
-  return x + y;
-}
-calc(4, 9);
+// function calc(x, y) {
+//   return x + y;
+// }
+// calc(4, 9);
