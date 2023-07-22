@@ -55,3 +55,20 @@ console.log(fruits);
 // Supprimer un élément par son index
 let removedItem = fruits.splice(pos, 1);
 console.log(removedItem);
+
+// Supprimer des éléments à partir d'un index
+let vegetables = ["Cabbage", "Turnip", "Radish", "Carrot"];
+console.log(vegetables);
+// ["Cabbage", "Turnip", "Radish", "Carrot"]
+
+let pos1 = 1,
+  n = 2;
+
+let removedItems = vegetables.splice(pos, n);
+// n définit le nombre d'éléments à supprimer,
+// à partir de la position pos
+
+console.log(vegetables);
+// ["Cabbage", "Carrot"] (le tableau d'origine est changé)
+
+console.log(removedItems);
