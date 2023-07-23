@@ -18,6 +18,10 @@ function puissance(nombre, expo) {
   return resultat;
 }
 console.log(puissance(4, 4));
+
+// module.exports = {
+//   puissance: puissance,
+// };
 //////////////////////////////////////////////////////////////////////////////
 // On souhaite stocker les positions d"une série de 20 objets mobiles (mobs) dans un jeu vidéo. Pour cela on va créer 2 tableaux :
 // posX qui contient la série des abscisses des objets
@@ -53,22 +57,27 @@ console.log(initXY(10, 40));
 // et tous les éléments de tInit supérieurs ou égaux à 10 dans le tableau tSup
 // 💡 la fonction doit fonctionner quel que soit le tableau tInit
 
-const tInit = [5, 15, 8, 20, 3, 12, 9];
+// Réalisez la fonction sortNumbers
+const tInit = [1, 4, 34, 43, 5];
 const tInf = [];
 const tSup = [];
 
 function sortNumbers(tInit, tInf, tSup) {
-  for (const number of tInit) {
-    if (number < 10) {
-      tInf.push(number);
+  for (let elements of tInit) {
+    if (elements < 10) {
+      tInf.push(elements);
     } else {
-      tSup.push(number);
+      tSup.push(elements);
     }
   }
 }
-
 sortNumbers(tInit, tInf, tSup);
 
-console.log(tInit);
-console.log(tInf);
-console.log(tSup);
+console.log("Voici les elements de notre tableau", tInit);
+console.log("Voici les elements inferieur a 10 de notre tableau", tInf);
+console.log("Voici les elements superieur a 10 de notre tableau", tSup);
+// // {
+// module.exports = {
+//   sortNumbers: sortNumbers,
+// };
+// // }
