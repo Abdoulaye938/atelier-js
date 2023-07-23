@@ -94,3 +94,19 @@ fruits[5] = "mangue";
 console.log(fruits[5]); // "mangue"
 console.log(Object.keys(fruits)); // ['0', '1', '2', '5']
 console.log(fruits.length); // 6
+
+//////////////////////
+fruits.length = 10;
+console.log(Object.keys(fruits)); // ['0', '1', '2', '5']
+console.log(fruits.length); // 10
+
+///////////////
+fruits.length = 2;
+console.log(Object.keys(fruits)); // ['0', '1']
+console.log(fruits.length); // 2
+
+// Création d'un tableau utilisant le résultat d'une correspondance
+let maRegexp = /d(b+)(d)/i;
+let monTableau = maRegexp.exec("cdbBdbsbz");
+
+console.log(monTableau);
