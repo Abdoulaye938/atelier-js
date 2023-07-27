@@ -100,8 +100,8 @@
 // condition et boucle
 // for in et for of
 
-const myArr = ['Laye', 'Moussa', 'Samba', 'Demba'];
+// const myArr = ['Laye', 'Moussa', 'Samba', 'Demba'];
 
-for (let prenom of myArr) {
-  console.log(`Bonjouur a toi ${prenom}`);
-}
+// for (let prenom of myArr) {
+//   console.log(`Bonjouur a toi ${prenom}`);
+// }
