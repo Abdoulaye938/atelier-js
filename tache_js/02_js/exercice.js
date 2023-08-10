@@ -27,8 +27,10 @@ console.log(typeof f);
 
 ///////////////////////////
 //Utilisation de l’opérateur typeof dans les contrôles conditionnels
-
-var a = 'hello';
-if (typeof a === 'string') {
-  console.log(true);
-}
+const x = 1;
+const y = 2;
+// let z = 'x' + 'y';
+console.log(x);
+console.log(typeof x);
+console.log(y);
+console.log(typeof y);
