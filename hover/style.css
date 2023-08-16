@@ -4,38 +4,38 @@
 }
 
 .container{
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
 .click-event1{
-    width: 120px;
-    height: 120px;
-    background-color: blue;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
     transition: 1s ease;
 }
 
 .click-event2{
-    width: 120px;
-    height: 120px;
-    background-color: rgb(0, 255, 200);
+    width: 150px;
+    height: 150px;
+    background-color: green;
     transition: 1s ease;
 }
 
 .click-event3{
-    width: 120px;
-    height: 120px;
-    background-color: rgb(34, 255, 0);
+    width: 150px;
+    height: 150px;
+    background-color: red;
     transition: 1s ease;
 }
 
 .click-event4{
-    width: 120px;
-    height: 120px;
-    background-color: rgb(255, 0, 187);
+    width: 150px;
+    height: 150px;
+    background-color: black;
     transition: 1s ease;
 }
 
 .border{
-    border-radius: 50%;
+    border-radius: 70%;
 }
