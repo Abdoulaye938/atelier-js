@@ -73,9 +73,9 @@ function sortNumbers(tInit, tInf, tSup) {
 }
 sortNumbers(tInit, tInf, tSup);
 
-console.log("Voici les elements de notre tableau", tInit);
-console.log("Voici les elements inferieur a 10 de notre tableau", tInf);
-console.log("Voici les elements superieur a 10 de notre tableau", tSup);
+console.log('Voici les elements de notre tableau', tInit);
+console.log('Voici les elements inferieur a 10 de notre tableau', tInf);
+console.log('Voici les elements superieur a 10 de notre tableau', tSup);
 // // {
 // module.exports = {
 //   sortNumbers: sortNumbers,
