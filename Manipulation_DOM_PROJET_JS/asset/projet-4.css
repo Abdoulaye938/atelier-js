@@ -7,7 +7,7 @@
 
    body {
     height: 100vh;
-    background: url(img/crono.jpeg);
+    background: url(./img/crono.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

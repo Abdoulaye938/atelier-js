@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(img/wwww.jpeg) no-repeat center center/cover;
+    background: url(./img/wwww.jpeg) no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 
 .accordion {
     width: 65%;
-    background-color: #fff;
+    background-color: transparent;
     padding: 30px;
     border-radius: 30px;
 }
