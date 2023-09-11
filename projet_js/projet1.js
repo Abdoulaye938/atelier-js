@@ -1,4 +1,4 @@
-//Dom MANIPULATION
+//--------------------Dom MANIPULATION----------------------------
 
 const buttonTwo = document.querySelector('.btn-2');
 
@@ -8,7 +8,7 @@ function alertBtn() {
 
 buttonTwo.addEventListener('click', alertBtn);
 
-// MouseOver
+//------------------------ MouseOver---------------------------------
 
 const newBackgroundColor = document.querySelector('.box-3');
 
