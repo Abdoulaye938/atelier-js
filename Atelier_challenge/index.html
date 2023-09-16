@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.2.0/remixicon.css" integrity="sha512-eRbcr5kt0vg2Kgl5BBKIqXoZ0f1lpe4ImM8GyzJN7mrhUR57xPh2JX+5Ra8zlh5QZWxEVQW9MOfMaCEEjnMcMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3> SPLI <br> TTER </h3>
+        <div class="container-1" id="container-1">
+            <div class="container-2">
+                <div class="block1">
+                    <div class="input">
+                        <label for="bill" class="inputs_label">Bill</label>
+                        <div class="bill-icone">
+                            <div>
+                                <i class="ri-money-dollar-circle-line"></i>
+                            </div>
+                            <input class="put" type="number" id="bill" name="bill" min="0" step="any" placeholder="0" />
+                        </div>
+                        
+                    </div>
+                    <div class="but-cal">
+                        <label for="tip" class="inputs_label">Select Tip %</label>
+                        <div class="touche">
+                             <button class="cal" value="5" type="button">5%</button>
+                             <button  class="cal" value="10" type="button">10%</button>
+                             <button  class="cal" value="15" type="button">15%</button>
+                             <button  class="cal" value="15" type="button">25%</button>
+                             <button  class="cal" value="25" type="button">50%</button>
+                             <button  class="cal" value="50" type="button">custom</button>
+                            
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="bill" class="inputs_label">Number of People</label>
+                        <div class="bill-icone">
+                            <div>
+                                <i class="ri-user-3-fill"></i>
+                            </div>
+                            <input class="put" type="number" id="bill" name="bill" min="0" step="any" placeholder="0" />
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="block2-1">
+                        <div class="block2-1-1">
+                            <h3 class="titre">Tip Acound</h3>
+                            <p class="para">/ person </p>
+                        </div>
+                        <div class="block2-1-2">
+                            <h1 class="number">$0.00</h1>
+                        </div>
+                    </div>
+                    <div class="block2-1">
+                        <div class="block2-1-1">
+                            <h3 class="titre">Total 1</h3>
+                            <p class="para">/ person </p>
+                        </div>
+                        <div class="block2-1-2">
+                            <h1 class="number">$0.00</h1>
+                        </div>
+                    </div>
+                   <div class="bouton">
+                    <button type="button" class="button"> Reset </button>
+                   </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
