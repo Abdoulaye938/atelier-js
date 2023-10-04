@@ -1,6 +1,6 @@
 var selectedRow = null;
 
-// show Alerts
+// afficher les alertes
 function showAlert(message, className) {
   const div = document.createElement('div');
   div.className = `alert alert-${className}`;
@@ -13,7 +13,7 @@ function showAlert(message, className) {
   setTimeout(() => document.querySelector('.alert').remove(), 3000);
 }
 
-//clear All fields
+//efface tous les champs
 function clearFields() {
   document.querySelector('#firstname').value = '';
   document.querySelector('#lastname').value = '';
@@ -21,17 +21,17 @@ function clearFields() {
   document.querySelector('#number').value = '';
 }
 
-// add DATA
+// ajouter des DONNÉES
 document.querySelector('#student-form').addEventListener('submit', (e) => {
   e.preventDefault();
 
-  // Get form Values
+  // Obtenir les valeurs du formulaire
   const firstname = document.querySelector('#firstname').value;
   const lastname = document.querySelector('#lastname').value;
   const email = document.querySelector('#email').value;
   const number = document.querySelector('#number').value;
 
-  // validate
+  // valider
   if (firstname == '' || lastname == '' || email == '' || number == '') {
     showAlert('Please fill in all fields', 'danger');
   } else {
@@ -62,7 +62,7 @@ document.querySelector('#student-form').addEventListener('submit', (e) => {
   }
 });
 
-// Edit Data
+// Modifier les données
 document.querySelector('#student-list').addEventListener('click', (e) => {
   target = e.target;
   if (target.classList.contains('edit')) {
@@ -78,7 +78,7 @@ document.querySelector('#student-list').addEventListener('click', (e) => {
   }
 });
 
-// Delete data
+// Suprimmer les données
 document.querySelector('#student-list').addEventListener('click', (e) => {
   target = e.target;
   if (target.classList.contains('delete')) {
