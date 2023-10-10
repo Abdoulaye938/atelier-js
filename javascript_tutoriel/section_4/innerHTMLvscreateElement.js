@@ -34,7 +34,7 @@ let fragment = document.createDocumentFragment();
 
 for (let i = 0; i < 200; i++) {
   let p = document.createElement('p');
-  p.textContent = `kadidiatou sylla  ${i} `;
+  p.textContent = `new paragraph  ${i} `;
   fragment.appendChild(p);
 }
 
