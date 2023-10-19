@@ -1,26 +1,27 @@
-const local = JSON.parse(localStorage.getItem("user"));
+const local = JSON.parse(localStorage.getItem('user'));
 
-if(local != null)
-{
-    formulaire.style.display = "none";
-    h1.textContent = `Bonjour ${local.nom}, tu as bien ${local.age} ans!`
-}
-
-else
-{
-    bouton.onclick = () => {
-        const user = {
-            nom: nom.value,
-            age: age.value
-        };
-        localStorage.setItem("user",JSON.stringify(user))
-        document.location.reload();
+if (local != null) {
+  formulaire.style.display = 'none';
+  h1.textContent = `Bonjour ${local.nom}, tu as bien ${local.age} ans!`;
+} else {
+  bouton.onclick = () => {
+    const user = {
+      nom: nom.value,
+      age: age.value,
     };
-
-}
-
-clear.onclick = () =>{
-    localStorage.clear();
+    localStorage.setItem('user', JSON.stringify(user));
     document.location.reload();
+  };
 }
 
+clear.onclick = () => {
+  localStorage.clear();
+  document.location.reload();
+};
+
+// if (localStorage.getItem('nom') != null)
+//   h1.textContent = `Bonjour ${localStorage.getItem('nom')}`;
+
+// bouton.onclick = () => {
+//   localStorage.setItem('nom', nom.value);
+// };
