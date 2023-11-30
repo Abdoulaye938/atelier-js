@@ -78,3 +78,11 @@
 // para.style.backgroundColor = prompt('Entrez une couleur');
 // console.log(para.style.color);
 // console.log(para.style.backgroundColor);
+
+// let tab = ['salif', 'abou', 'bamba'];
+
+// tab.push('laye', 'moussa');
+// for (i = 0; i < tab.length; i++) {
+//   document.write(tab[i] + '<br>');
+//   //   console.log(tab[3]);
+// }

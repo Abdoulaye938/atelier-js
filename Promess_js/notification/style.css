@@ -2,6 +2,11 @@
     font-size: 16;
     position: relative;
 }
+body{
+    margin: 50px;
+    background-color: grey;
+}
+
 .notification-count{
     background-color: red;
     color: white;
@@ -17,7 +22,7 @@
 }
 .notification-list{
     display: none;
-    max-width: 150px;
+    width: 100%;
     overflow-y: auto;
     border: 1px solid #ccc;
     background-color: #f9f9f9;
@@ -29,6 +34,7 @@
 }
 .input-container{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 input[type="text"]{
     padding: 5px;
